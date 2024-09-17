@@ -1,0 +1,131 @@
+body{
+    background-image:url(../imagens/1ad76db8a479ca1470282f7986b2ad6b.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 100vw;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size:cover; 
+
+}
+
+header{
+    margin-top: 20px;
+}
+
+#seta{
+font-size: 35px;
+}
+
+header a {
+    margin-left: -6rem;
+    cursor: pointer;
+    color: #fff;
+    size-adjust: 100px;
+    transition: all 0.3s ease-in-out;
+    font-size: 35px;
+}
+
+header a:hover{
+    color: rgba(113, 33, 241, 0.678);
+}
+
+h1{
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+    font-family: "Lato";
+}
+
+p{
+    color: #fff;
+    margin-left: 0.8rem;
+    font-size: 1.05rem;
+    font-weight: 600;
+    transition: 0.5s;
+}
+p:hover{
+    color: rgb(112, 36, 184);
+}
+
+section{
+    background-color: transparent;
+    max-width: 100vw;
+    position: relative;
+    flex-direction: column;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    backdrop-filter: blur(55px);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+       
+}
+form{
+    padding: 2rem 3rem;
+}
+
+.container{
+    display: flex;
+}
+.inputbox input{
+    border-radius: 40px;
+      /*top, left bottom right*/
+    padding: 3px 5px 3px 5px;
+    margin: 5px;
+    display: block;
+    margin-bottom: 0.8rem;
+    height: 30px;
+    border-color: rgba(75, 16, 131, 0.671)
+}
+.inputbox label{
+    color: #fff;
+    margin-left: 0.8rem;
+    font-size: 1.05rem;
+    font-weight: 600;
+}
+
+.reset{
+    display: flex;
+    justify-content: center;
+}
+.reset input{
+    width: 180px;
+    border-radius: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    border: none;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    color:rgb(113, 33, 241);
+    padding: 3px 5px 3px 5px;
+}
+.reset input:hover{
+    background-color:rgba(113, 33, 241, 0.678);
+    color: #fff;
+}
+
+.box button{
+    width: 180px;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 40px;
+    margin-left: 5px;
+    background-color: rgb(255, 255, 255, 1);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    color:rgb(113, 33, 241); 
+    padding: 3px 5px 3px 5px;
+    transition: all 0.3s ease-in-out;
+}
+.box button:hover{
+background-color:rgba(113, 33, 241, 0.678);
+    color: #fff;}

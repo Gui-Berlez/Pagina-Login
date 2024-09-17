@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <section>
+            <form>
+                <h1>Início</h1>
+                <div class="inputbox">
+                    <label for="">Username</label>
+                    <input type="email" required >
+                </div>
+
+                <div class="inputbox">
+                    <!--label é semanticamente correto para rótulo, (é sua tradução)-->
+                    <label for="">Password</label>
+                    <input type="password" required 
+                    minlength="8" maxlength="12">
+                </div>
+                <div class="forget">
+                        <!-- <input type="checkbox">  // este type faz com que o label vire uma marcação--> 
+                        <a href="remember.html" target="_blank" rel="external">Esqueceu a senha?</a>
+                </div>
+
+            <button class="login">Login</button>
+            
+            <div class="register">
+                <p>Não possuo uma conta!</p>
+                <a href="register.html" target="_blank" rel="external">Registrar-se</a>
+            </div>
+            
+            </form>
+        </section>
+    </main>
+    <script src="src/js/index.js"></script>
+</body>
+</html>
