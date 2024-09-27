@@ -18,14 +18,12 @@ body{
 }
 
 form{
+    display: block;
     align-items: center;
     align-items: center;
     justify-content: center;
 }
 
-form a:hover{
-    color: rgba(113, 33, 241, 0.678);
-}
 
 section{
     font-family: Arial, Helvetica, sans-serif;
@@ -48,13 +46,17 @@ p{
     font-weight: 600;
 }
 
-.seta{
+.seta a{
     margin-left: -2rem;
     cursor: pointer;
     color: #fff;
     size-adjust: 100px;
     transition: all 0.3s ease-in-out;
     font-size: 35px;
+}
+
+.seta a:hover{
+    color: rgba(113, 33, 241, 0.678);
 }
 
 .inputbox label{
