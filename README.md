@@ -1,2 +1,2 @@
 # Pagina-Login
- Modelo básico de uma página para login de um site.
+ Desenvolvimento de um modelo básico de uma página para login de um site.
