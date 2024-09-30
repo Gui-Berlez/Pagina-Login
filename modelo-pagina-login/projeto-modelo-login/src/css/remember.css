@@ -59,6 +59,12 @@ p{
     color: rgba(113, 33, 241, 0.678);
 }
 
+.inputbox{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
 .inputbox label{
     color: #fff;
     margin-left: 0.8rem;
@@ -74,7 +80,7 @@ p{
     margin: 5px;
     margin-bottom: 0.8rem;
     height: 21px;
-    border-color: rgba(75, 16, 131, 0.671)
+    border-color: rgba(75, 16, 131, 0.671);
 }
  
 .b1{
@@ -107,10 +113,15 @@ p{
     transition: all 0.3s ease-in-out;
     color:rgb(113, 33, 241);
     padding: 3px 5px 3px 5px;
-    margin-left: 5px;
+    margin-left: 7px;
 }
 
 .b2:hover{
     background-color: rgba(113, 33, 241, 0.678);
     color: #fff;
+}
+
+.button{
+    text-align: center;
+    justify-content: center;
 }
