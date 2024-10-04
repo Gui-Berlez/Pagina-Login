@@ -18,17 +18,17 @@
 <body>
     <main>
         <section>
-            <form>
+            <form id="formulario">
                 <h1>Início</h1>
                 <div class="inputbox">
-                    <label for="">Username</label>
-                    <input type="email" required >
+                    <label for="usuario">Username</label>
+                    <input type="email" id="usuario" required>
                 </div>
 
                 <div class="inputbox">
                     <!--label é semanticamente correto para rótulo, (é sua tradução)-->
                     <label for="">Password</label>
-                    <input type="password" required 
+                    <input type="password" id="senha" required 
                     minlength="8" maxlength="12">
                 </div>
                 <div class="forget">
@@ -36,7 +36,7 @@
                         <a href="remember.html" target="_blank" rel="external">Esqueceu a senha?</a>
                 </div>
 
-            <button class="login">Login</button>
+            <button class="login" type="submit">Login</button>
             
             <div class="register">
                 <p>Não possuo uma conta!</p>
