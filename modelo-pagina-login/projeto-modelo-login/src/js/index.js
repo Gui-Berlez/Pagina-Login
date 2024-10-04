@@ -1,5 +1,5 @@
 const botao = document.querySelector(".login")
-const preencher = document.querySelectorAll(".preencher")
+const preencher = document.querySelectorAll(".preencher")//Ao invés do por .preencher nos parenteses, mudar para .inpubox
 
 
 botao.addEventListener("click", ()=>{
